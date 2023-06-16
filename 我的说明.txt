@@ -1,0 +1,6 @@
+1：keywords.txt已经copy一份放入 m_无标签敏感词库文件夹中。
+2：data.txt来自3个m开头的敏感词库，运行程序会自动产生，所以不需保留。
+3：同样道理，add_or_remove_keywords_refresh.txt运行程序也会自动产生，所以也不需保留。
+4：在部署docker容器时，请如果Dockerfile里CMD命令中有nohup，请去掉，避免部署后运行太久导致日志空间爆炸。
+5: streamlit run app.py 即可运行
+
